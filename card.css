@@ -1,0 +1,24 @@
+body{
+background-color: rgb(255, 255, 255);
+
+}
+.card{
+    background-color: peru;
+    width: 400px;
+    height: 300px;
+    cursor: pointer;
+    border: 3px solid rgb(243, 49, 15);
+    box-shadow: 20px;
+    align-items: center;
+    border-radius: 30px;
+    perspective: 1000px;
+    transform-style: preserve-3d;
+    transition: ease 2s;
+}
+.card:hover{
+    background-color: magenta;
+    width: 400px;
+    height: 300px;
+    border: 4px solid black;
+    transform: rotateY(180deg);
+}
